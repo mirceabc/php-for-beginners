@@ -30,6 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <?php require '../includes/header.php'; ?>
 
 <h2>New category</h2>
+<a href="view-categories.php">All categories</a>
 
 <form method="post" id="formCategory">
 
