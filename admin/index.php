@@ -70,8 +70,6 @@ $categories = Category::getAll($conn);
 </form>
 <br> -->
 
-
-
 <!-- <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['selected_list'])) {
     $selected_list = $_POST['selected_list'];
