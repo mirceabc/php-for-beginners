@@ -136,10 +136,7 @@ class Category
                 foreach ($results as $row) {
                        $category_id = $row['id'];
                         if ($category_id != $previous_id) {
-                                $categories[] = [
-                                        'id' => $row['id'],
-                                        'name' => $row['category_name']
-                                ];
+                               $categories[$category_id] = $row;
                         }
                         $previous_id = $category_id;
                 }

@@ -6,7 +6,7 @@ Auth::requireLogin();
 
 $conn = require '../includes/db.php';
 
-$paginator = new Paginator($_GET['category'] ?? 1, 4, Category::getTotal($conn));
+$paginator = new Paginator($_GET['page'] ?? 1, 6, Category::getTotal($conn));
 
 $categories = Category::getCategory($conn, $paginator->limit, $paginator->offset);
 
@@ -35,7 +35,7 @@ if (empty($categories)): ?>
                 <tr>
                     <td>
                         <a href="category.php?id=<?= $category['id']; ?>">
-                            <?= htmlspecialchars($category['name']); ?>
+                            <?= htmlspecialchars($category['category_name']); ?>
                         </a>
                     </td>
                 </tr>
