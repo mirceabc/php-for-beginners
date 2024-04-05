@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <?= $message ?>
         </p>
     <?php endif; ?>
-    <button type="submit" class="btn btn-primary">Update</button>
+    <button type="submit" class="btn btn-primary mt-2">Update</button>
 </form>
 
 

@@ -40,7 +40,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <input type="password" name="password" id="password" class="form-control">
     </div>
 
-    <button class="btn">Log in</button>
+    <button class="btn btn-primary mt-2">Log in</button>
 
 </form>
 

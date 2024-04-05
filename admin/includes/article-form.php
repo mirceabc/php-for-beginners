@@ -36,6 +36,6 @@
         <a href="new-category.php">Add new category</a>
     </fieldset>
 
-    <button class="btn">Save</button>
+    <button class="btn btn-primary mt-2">Save</button>
 
 </form>

@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 <?php require 'includes/header.php'; ?>
 
-<h2>Register</h2>
+<h2>Sign in</h2>
 
 <?php if (!empty($error)) : ?>
     <p><?= $error ?></p>
@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </div>
 
 
-    <button class="btn">Register</button>
+    <button class="btn btn-primary mt-2">Register</button>
 
 </form>
 
